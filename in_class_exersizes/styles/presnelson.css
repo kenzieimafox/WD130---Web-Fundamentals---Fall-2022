@@ -1,0 +1,58 @@
+body {
+    background-color: #fca6c9;
+}
+
+h1 {
+    color:white
+}
+
+h1:hover {
+    color:black
+}
+
+header {
+    /*border: 1px solid black;*/
+    /*margin: 0 auto;*/
+    text-align: center;
+    /*width: 400px;*/
+}
+
+img {
+    width: 200px;
+}
+
+#footer {
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin:0 auto;
+    width: 400px;
+}
+
+#list {
+    /*border: 1px solid black;*/
+    font-size: 14.5pt;
+    margin: 0 auto;
+    width: 450px;
+}
+
+#quote {
+    /*border: 1px solid black;*/
+    color:white;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0 auto;
+    width: 175px;
+}
+
+#top {
+    color:white;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+}
+
+.center{
+    text-align: center;
+}
