@@ -25,6 +25,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    color: white;
+}
+
 h4 {
     color: white;
 }
@@ -89,6 +93,10 @@ nav a:hover {
     border:1px solid black;
     margin: 0 auto;
     max-width: 1600px;
+}
+
+#hero-box {
+    text-align: center;
 }
 
 #hero-msg h1, #hero-msg h4 {
