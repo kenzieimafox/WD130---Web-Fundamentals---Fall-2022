@@ -44,15 +44,15 @@ img {
     width: 175px;
 }
 
-#top {
+.center{
+    text-align: center;
+}
+
+.top {
     color:white;
     font-size: 14pt;
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
     width: 520px;
-}
-
-.center{
-    text-align: center;
 }
