@@ -1,0 +1,14 @@
+article {
+    background-color: green;
+    border: 1px solid black;
+}
+
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#article1 {
+    grid-column: 1/4;
+}
