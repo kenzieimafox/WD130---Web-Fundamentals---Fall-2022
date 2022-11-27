@@ -1,12 +1,157 @@
-a {
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Kalam&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #330C24;
+}
+footer {
+    background-color: #172951;
+    color: #B8743F;
+    font-family: 'Kalam';
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #B8743F;
     text-decoration: none;
 }
 
+footer a:hover {
+    color: white
+}
+
+
+header nav {
+    background-color: #172951;
+    font-family: 'Kalam';
+}
+
+header h1 {
+    font-family: 'Island Moments';
+    font-size: 75px;
+    color:#B8743F;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #BFB6B5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main li {
+    list-style: none;
+}
+
+main img {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+main p {
+    background-color: #172951;
+    color: #BFB6B5;
+    line-height: 1.5em;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Kalam';
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;  
+  }
+  
+nav a {
+    text-align: center;
+    color: #B8743F;
+    text-decoration: none;
+    font-family: 'Kalam';
+    padding: 35px;
+}
+  
+nav a:hover {
+    background-color: #BFB6B5;
+    color: white;
+}  
+
 ul {
     display: flex;
+    text-decoration: none;
 }
 
 ul li {
     list-style: none;
     margin: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero-img {
+    width: 100%;
+    z-index: -1;
+}
+
+.fantasy, .scifi {
+    background-color: #172951;
+    color: white;
+    text-decoration: none;
+    font-family: 'Kalam';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center; 
+    margin-left: 850px;
+}
+
+.fantasy {
+    margin-left: 875px;
+}
+
+.fantasy:hover, .scifi:hover {
+    background-color: #BFB6B5;
+    color: white;
+}
+
+.fantasy-img, .scifi-img {
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scifi-img {
+    padding-top: 35px;
+}
+
+.purchase {
+    background-color: #172951;
+    color: #B8743F;
+    line-height: 1.5em;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Kalam';
+    margin-left: 850px;
+    margin-top: 0;
+}
+
+.purchase:hover {
+    background-color: #BFB6B5;
+    color: white;
 }
